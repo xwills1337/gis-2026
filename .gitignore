@@ -1,0 +1,16 @@
+client/node_modules/
+client/package-lock.json
+npm-debug.log
+
+geoserver_data/
+
+.vs/
+*.suo
+*.user
+
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp
+*.cache
