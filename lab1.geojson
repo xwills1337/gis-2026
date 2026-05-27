@@ -1,0 +1,445 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "way/1523302815",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "1А",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302815"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2946096,
+                            53.5918584
+                        ],
+                        [
+                            49.2945909,
+                            53.5917794
+                        ],
+                        [
+                            49.2947473,
+                            53.5917655
+                        ],
+                        [
+                            49.2947614,
+                            53.5918431
+                        ],
+                        [
+                            49.2946096,
+                            53.5918584
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302816",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "1",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302816"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2948127,
+                            53.5919679
+                        ],
+                        [
+                            49.2948267,
+                            53.5920205
+                        ],
+                        [
+                            49.2947053,
+                            53.5920344
+                        ],
+                        [
+                            49.294689,
+                            53.5919803
+                        ],
+                        [
+                            49.2948127,
+                            53.5919679
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302817",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "3",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302817"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2947333,
+                            53.5921965
+                        ],
+                        [
+                            49.294717,
+                            53.5921494
+                        ],
+                        [
+                            49.2948197,
+                            53.5921439
+                        ],
+                        [
+                            49.2948314,
+                            53.5921882
+                        ],
+                        [
+                            49.2947333,
+                            53.5921965
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302818",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "5",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302818"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2949225,
+                            53.5923268
+                        ],
+                        [
+                            49.2949365,
+                            53.5923684
+                        ],
+                        [
+                            49.2948361,
+                            53.5923809
+                        ],
+                        [
+                            49.2948221,
+                            53.5923407
+                        ],
+                        [
+                            49.2949225,
+                            53.5923268
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302819",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "7",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302819"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2948664,
+                            53.5925624
+                        ],
+                        [
+                            49.2948524,
+                            53.5924973
+                        ],
+                        [
+                            49.2949598,
+                            53.592489
+                        ],
+                        [
+                            49.2949692,
+                            53.5925541
+                        ],
+                        [
+                            49.2948664,
+                            53.5925624
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302820",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "2111",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302820"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2949318,
+                            53.5918265
+                        ],
+                        [
+                            49.2949201,
+                            53.5917669
+                        ],
+                        [
+                            49.2950252,
+                            53.59176
+                        ],
+                        [
+                            49.2950346,
+                            53.5918168
+                        ],
+                        [
+                            49.2949318,
+                            53.5918265
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302821",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "2",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302821"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2949622,
+                            53.5920122
+                        ],
+                        [
+                            49.2949412,
+                            53.5919194
+                        ],
+                        [
+                            49.2951023,
+                            53.5919069
+                        ],
+                        [
+                            49.2951163,
+                            53.5919997
+                        ],
+                        [
+                            49.2949622,
+                            53.5920122
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302822",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "4",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302822"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2949855,
+                            53.5920344
+                        ],
+                        [
+                            49.2950789,
+                            53.5920233
+                        ],
+                        [
+                            49.2951046,
+                            53.5920954
+                        ],
+                        [
+                            49.2950112,
+                            53.5921078
+                        ],
+                        [
+                            49.2949855,
+                            53.5920344
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302823",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "8",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302823"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2951209,
+                            53.592446
+                        ],
+                        [
+                            49.2952073,
+                            53.5924377
+                        ],
+                        [
+                            49.295226,
+                            53.5925056
+                        ],
+                        [
+                            49.2951396,
+                            53.5925167
+                        ],
+                        [
+                            49.2951209,
+                            53.592446
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/1523302824",
+            "properties": {
+                "timestamp": "2026-05-27T06:00:46Z",
+                "version": "1",
+                "changeset": "183238483",
+                "user": "mishmishwhite",
+                "uid": "24161258",
+                "addr:city": "сельское поселение Тимофеевка",
+                "addr:housenumber": "10",
+                "addr:street": "23-я улица",
+                "building": "house",
+                "building:levels": "2",
+                "id": "way/1523302824"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            49.2951887,
+                            53.5927301
+                        ],
+                        [
+                            49.295163,
+                            53.5926248
+                        ],
+                        [
+                            49.295261,
+                            53.5926123
+                        ],
+                        [
+                            49.2952984,
+                            53.5927204
+                        ],
+                        [
+                            49.2951887,
+                            53.5927301
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
