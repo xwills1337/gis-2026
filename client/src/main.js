@@ -8,7 +8,7 @@ import ImageWMS from 'ol/source/ImageWMS';
 import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
 import GeoJSON from 'ol/format/GeoJSON';
-import { Style, Fill, Stroke } from 'ol/style';
+import { applyStyle } from 'ol-mapbox-style';
 
 const map = new Map({
   target: 'map',
@@ -45,18 +45,41 @@ fetch('/overture.geojson')
           dataProjection: 'EPSG:4326',
           featureProjection: 'EPSG:4326'
         })
-      }),
-      style: function (feature) {
-        const type = feature.get('source_type');
-        let color = '#cccccc';
-        if (type === 'my') color = '#00cc00';
-        else if (type === 'osm') color = '#3388ff';
-        else if (type === 'ml') color = '#ff8800';
-        return new Style({
-          fill: new Fill({ color: color + '80' }),
-          stroke: new Stroke({ color: '#ffffff', width: 1 })
-        });
-      }
+      })
     });
-    map.addLayer(vectorLayer);
+
+    const mapboxStyle = {
+      version: 8,
+      sources: {
+        overture: { type: 'geojson', data: data }
+      },
+      layers: [
+        {
+          id: 'overture-fill',
+          type: 'fill',
+          source: 'overture',
+          paint: {
+            'fill-color': [
+              'match',
+              ['get', 'source_type'],
+              'my', '#00cc00',
+              'osm', '#3388ff',
+              'ml', '#ff8800',
+              '#cccccc'
+            ],
+            'fill-opacity': 0.6
+          }
+        },
+        {
+          id: 'overture-outline',
+          type: 'line',
+          source: 'overture',
+          paint: { 'line-color': '#ffffff', 'line-width': 1 }
+        }
+      ]
+    };
+
+    applyStyle(vectorLayer, mapboxStyle, 'overture').then(() => {
+      map.addLayer(vectorLayer);
+    });
   });
