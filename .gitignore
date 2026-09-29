@@ -1,8 +1,5 @@
 client/node_modules/
-client/package-lock.json
 npm-debug.log
-
-geoserver_data/
 
 .vs/
 *.suo
@@ -11,6 +8,17 @@ geoserver_data/
 .DS_Store
 Thumbs.db
 
-*.log
 *.tmp
 *.cache
+
+geoserver_data/**/*.lck
+geoserver_data/**/*.bak
+geoserver_data/**/*.orig
+geoserver_data/gwc/
+geoserver_data/gwc-layers/
+geoserver_data/logs/*.log
+geoserver_data/tomcat_pass.txt
+geoserver_data/security/masterpw/
+geoserver_data/security/masterpw.digest
+geoserver_data/security/masterpw.xml
+geoserver_data/security/geoserver.jceks
