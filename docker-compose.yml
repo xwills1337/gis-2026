@@ -8,9 +8,8 @@ services:
       POSTGRES_PASSWORD: gispass
     volumes:
       - ./init-db:/docker-entrypoint-initdb.d
-      - postgis_data:/var/lib/postgresql/data
     ports:
-      - "6000:5432"
+      - "5432:5432"
 
   geoserver:
     image: kartoza/geoserver:2.24.2
@@ -24,6 +23,3 @@ services:
       - "8080:8080"
     depends_on:
       - postgis
-
-volumes:
-  postgis_data:
